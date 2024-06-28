@@ -113,7 +113,7 @@ skills:
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: Data Analytics
         description: ''
         percent: 100
         icon: chart-bar
