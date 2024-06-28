@@ -139,9 +139,9 @@ skills:
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Italian
+    percent: 100
+  - name: English
     percent: 75
   - name: German
     percent: 25
