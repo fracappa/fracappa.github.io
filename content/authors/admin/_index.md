@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Francesco Cappa
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Francesco Cappa
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Francesco
+last_name: Cappa
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ☁️
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,99 +20,96 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Research Assistant
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Politecnico di Torino
+    url: https://www.polito.it/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'francesco.cappa@polito.it'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+  # - icon: brands/x
+  #   url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/thefrancescocappa?utm_source=qr&igsh=emZxbDJ5cW42N2N0
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/fracappa
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://it.linkedin.com/in/francesco-cappa-7a1758188
+  # - icon: academicons/google-scholar
+  #   url: https://scholar.google.com/
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/
 
 interests:
+  - Cloud Computing
+  - Operating Systems
+  - Kernel Instrumentation
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - area: PhD Artificial Intelligence
+  #   institution: Stanford University
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
+  - area: MEng Computer Engineering
+    institution: Politecnico di Torino
+    date_start: 2019-10-01
+    date_end: 2022-07-29
+  - area: BSc Computer Engineering
+    institution: Università della Calabria
+    date_start: 2014-10-01
+    date_end: 2018-07-28
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
+  - position: Research Assistant
+    company_name: Politecnico di Torino
+    company_url: 'https://www.polito.it/'
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2023-06-16
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+      - Design and implementation of custom Kubernetes controllers
+      - Design, set up and maintanance of on-premise data centers
+      - Instructing and reviewing students projects
+  - position: Cloud Engineer
+    company_name: ITAUROS S.r.l.
+    company_url: 'https://itauros.com/it'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-09-05
+    date_end: 2023-06-15
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Design and implementation of serverless applications
+      - Provisioning and configuration of cloud infrastructures
+      - Set up and maintainance of Kubernetes clusters
+  - position: Software Engineer
+    company_name: Telematica Informatica S.r.l.
+    company_url: 'https://www.telematicainformatica.it/'
+    company_logo: ''
+    date_start: 2022-05-01
+    date_end: 2023-06-01
+    summary: |
+      Responsibilities include:
+      - Analysing project requirements
+      - Mantaining vehicle-to-cloud web applications
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: GO & Kubernetes
         description: ''
         percent: 80
         icon: code-bracket
@@ -132,7 +129,7 @@ skills:
         description: ''
         percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Pets
         description: ''
         percent: 100
         icon: cat
@@ -144,9 +141,9 @@ skills:
 languages:
   - name: English
     percent: 100
-  - name: Chinese
+  - name: Italian
     percent: 75
-  - name: Portuguese
+  - name: German
     percent: 25
 
 # Awards.
@@ -183,4 +180,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a research assistant at Politecnico di Torino with specific interest in computer systems observability, cloud and edge computing, and programming. Currently, I am engaged in European projects focused on developing a new computing continuum. This continuum aims to create a large virtual cluster by leveraging state-of-the-art technologies such as Kubernetes and adopting and enhancing emerging technologies like Liqo.

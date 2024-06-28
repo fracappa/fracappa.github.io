@@ -1,8 +1,15 @@
 ---
-title: "An example preprint / working paper"
+title: "Building the Continuum with REAR"
 authors:
+- Stefano Galantino
 - admin
-date: "2019-04-07T00:00:00Z"
+- Andrea Colli-Vignarelli
+- Fulvio Risso
+- Stefano Braghin
+- Elisa Albanese
+- Lorenzo Moro
+- Domenico Siracusa
+date: "2024-06-24T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -17,27 +24,27 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The computing continuum combines computational resources and services from edge to cloud, promising enhanced efficiency and resilience with respect to the traditional siloed based approach. This study presents the REAR (Resource Advertisement and Reservation) protocol, which tackles the complexities of managing resources within this continuum. REAR establishes standardized interfaces to enable interoperability, enhances resource allocation efficiency, and maintains security measures for workload execution. The paper details the protocol’s design, key components, operational workflows, and potential uses, contributing to the optimization of resource use across the computing continuum. 
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-- Large Language Models
+- Compuuting Continuum, Kubernetes
 
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+# - name: Custom Link
+#   url: http://example.org
+url_pdf: https://iris.polito.it/handle/11583/2989397
+url_code: 'https://github.com/fluidos-project/REAR'
+# url_dataset: '#'
+# url_poster: '#'
+# url_project: ''
+# url_slides: ''
+# url_source: '#'
+# url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
