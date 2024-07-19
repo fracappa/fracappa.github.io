@@ -35,11 +35,10 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I'm a research scientist in Netgroup team at Politecnico di Torino. 
+        I'm a research assistant, member of the [netgroup](https://netgroup.polito.it/) team at PoliTo. 
         
-        I blog about cloud technologies, computing continuum 
-        and machine learning in the domain. 
-
+        I blog about cloud infrastructures and the impact of emerging technologies in this field.
+        
         I'm costantly courious to experiment quantitative and qualitative methods which comprehensively invenstigate the role of science and technology in the economy evolution
     design:
       columns: '1'
