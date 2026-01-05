@@ -1,8 +1,8 @@
-module my_website
+module github.com/HugoBlox/kit/templates/dev-portfolio-free
 
-go 1.15
+go 1.19
 
 require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231203174848-dced0cd82487
+	github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652
+	github.com/HugoBlox/kit/modules/blox v0.0.0-20260105203838-3526fb1ca1e5
 )

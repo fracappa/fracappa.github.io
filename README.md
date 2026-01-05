@@ -1,32 +1,124 @@
-# [Hugo Portfolio Theme](https://github.com/wowchemy/starter-hugo-portfolio-theme)
+# [Developer Portfolio](https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme)
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+[![Screenshot](.github/preview.png)](https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme)
 
-The **Hugo Portfolio Template** empowers you to easily create a portfolio website. Make it your own by choosing a color theme and grid layout!
+<h1 align="center">The Dev Portfolio That Gets You Hired</h1>
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+<p align="center">
+  <strong>Built for uni students, STEM grads, and software engineers.</strong><br/>
+  Showcase real projects, ship a clean blog, and stand out with a modern dark-first design — without a fragile “black box” React app.
+</p>
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+<p align="center">
+  <a href="https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme"><b>🚀 Deploy in 60s (Free)</b></a>
+  &nbsp;•&nbsp;
+  <a href="https://hugoblox.com/templates/?open=dev-portfolio&loading=true&utm_source=github&utm_medium=readme">Live Demo</a>
+  &nbsp;•&nbsp;
+  <a href="https://docs.hugoblox.com/guides/studio/">HugoBlox Studio (Visual Editor)</a>
+</p>
 
-[Check out the latest demo](https://hugo-portfolio-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+<p align="center">
+  <b>▶︎ Watch 12s Preview</b>
+</p>
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+https://github.com/user-attachments/assets/a6b676c0-1c10-4734-a55f-68c6f72d1612
 
-## We ask you, humbly, to support this open source movement
+<p align="center">
+  <a href="https://discord.gg/z8wNYzb"><img src="https://img.shields.io/discord/722225264733716590?label=Join%20Discord&style=social" alt="Discord"></a>
+  <a href="https://github.com/HugoBlox/kit"><img src="https://img.shields.io/github/stars/HugoBlox/kit?label=Star%20HugoBlox&style=social" alt="GitHub Stars"></a>
+  <a href="https://x.com/BuildLore"><img src="https://img.shields.io/twitter/follow/BuildLore?label=Follow&style=social" alt="Follow on X"></a>
+</p>
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+---
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+## Why this template?
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+Most portfolios look the same — and most “quick” site builders produce slow sites you can’t maintain.
+
+- **⚡ Fast by default**: Hugo + Tailwind 4 + Hugo Modules → great Lighthouse scores without JS bloat.
+- **🧠 AI-ready content**: Your projects and posts live in clean Markdown/YAML — readable by humans and LLMs.
+- **🎯 Job-hunting optimized**: Projects, tech stack, experience timeline, and a blog layout that looks credible.
+- **🌙 Dark-first (but light-mode supported)**: Looks premium in dark mode, still works perfectly in light mode.
+- **🧩 Block-based**: Reorder/replace sections without rewriting templates.
+
+---
+
+## Who it’s for
+
+- **Students & grads** applying to internships / MSc / PhD / junior roles
+- **STEM professionals** (research, data, ML, bio, engineering) showcasing projects and writing
+- **Software engineers** building a portfolio that feels modern in 2026
+
+---
+
+## What you get (Free)
+
+- **Developer hero** with modern gradients + optional typewriter
+- **Filterable portfolio** (tags + smooth transitions)
+- **Tech stack** grid with icons
+- **Experience + education timeline**
+- **Blog section** (cards + featured images)
+- **Contact section** with social links + copy email
+
+---
+
+## Get started (recommended)
+
+### Option 1 — Online deployer (fastest)
+
+Deploy this template in ~60 seconds:
+
+- [Deploy in browser →](https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme)
+
+### Option 2 — HugoBlox Studio (visual editor in VS Code)
+
+- [Studio guide →](https://docs.hugoblox.com/guides/studio/?utm_source=github&utm_medium=readme)
+- [Studio AI automation plans (Free/Plus/Pro) →](https://hugoblox.com/pricing/?utm_source=github&utm_medium=readme)
+
+### Option 3 — HugoBlox CLI (developer workflow)
+
+Install:
+
+```bash
+npm install -g hugoblox@latest
+```
+
+Create a site:
+
+```bash
+hugoblox create site --template dev-portfolio
+```
+
+[CLI docs →](https://docs.hugoblox.com/start/cli/?utm_source=github&utm_medium=readme)
+
+---
+
+## Customize in 10 minutes
+
+- **Your profile**: `data/authors/me.yaml`
+- **Homepage sections**: `content/_index.md`
+- **Projects**: `content/projects/<project>/index.md`
+- **Blog posts**: `content/blog/<post>/index.md`
+- **Theme + identity**: `config/_default/params.yaml`
+
+---
+
+## Want the Pro version? 💎
+
+If you want a version that feels meaningfully more premium (and helps fund open source + research):
+
+- [Premium template →](https://hugoblox.com/templates/dev-portfolio-pro/start?utm_source=github&utm_medium=readme)
+- [HugoBlox Pro / Studio →](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme)
+
+---
+
+## Community & support
+
+- **Docs**: [docs.hugoblox.com →](https://docs.hugoblox.com/?utm_source=github&utm_medium=readme)
+- **Discord**: [Join Discord →](https://discord.gg/z8wNYzb)
+- **Issues**: [Open an issue →](https://github.com/HugoBlox/kit/issues)
+
+---
+
+MIT © 2016–Present [George Cushen](https://neuralgeo.com/?utm_source=github&utm_medium=readme)
