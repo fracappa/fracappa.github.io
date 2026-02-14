@@ -48,38 +48,38 @@ sections:
         padding: ["6rem", "0", "4rem", "0"]
   
   # Filterable Portfolio - Alpine.js powered project filtering
-  - block: portfolio
-    id: projects
-    content:
-      title: "Featured Projects"
-      subtitle: "A selection of my recent work"
-      count: 0
-      filters:
-        folders:
-          - projects
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Netw
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
-      default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false  # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
-    design:
-      columns: 3
-      background:
-        color:
-          light: "#ffffff"
-          dark: "#0d0d12"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+  # - block: portfolio
+  #   id: projects
+  #   content:
+  #     title: "Featured Projects"
+  #     subtitle: "A selection of my recent work"
+  #     count: 0
+  #     filters:
+  #       folders:
+  #         - projects
+  #     buttons:
+  #       - name: All
+  #         tag: '*'
+  #       - name: Netw
+  #         tag: Full-Stack
+  #       - name: Frontend
+  #         tag: Frontend
+  #       - name: Backend
+  #         tag: Backend
+  #     default_button_index: 0
+  #     # Archive link auto-shown if more projects exist than 'count' above
+  #     # archive:
+  #     #   enable: false  # Set to false to explicitly hide
+  #     #   text: "Browse All"  # Customize text
+  #     #   link: "/work/"  # Custom URL
+  #   design:
+  #     columns: 3
+  #     background:
+  #       color:
+  #         light: "#ffffff"
+  #         dark: "#0d0d12"
+  #     spacing:
+  #       padding: ["4rem", "0", "4rem", "0"]
   
   # Visual Tech Stack - Icons organized by category
   - block: tech-stack
