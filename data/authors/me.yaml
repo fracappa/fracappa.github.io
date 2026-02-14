@@ -2,87 +2,98 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Francesco Cappa
+  given: Francesco
+  family: Cappa
 postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+role: Software Engineer
+email: francesco.cappa95@gmail.com
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Software Engineer with 4+ years of experience building scalable and performant Cloud Infrastructures.
+  Passionate about Modern System Programming Techniques, Cloud Architecture, and Creating Monitoring Tools.
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+  - name: Red Hat
+    url: https://www.redhat.com
 
 links:
   - icon: at-symbol
-    url: mailto:alex@example.com
+    url: mailto:francesco.cappa95@gmail.com
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: https://github.com/fracappa
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: https://it.linkedin.com/in/francesco-cappa-7a1758188
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/francescocappa.bsky.social
 
 interests:
-  - Web Development
   - Cloud Architecture
   - Open Source
-  - Developer Experience
+  - Linux Kernel
+  - Performance 
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: M.S. Computer Engineering
+    institution: Politecnico di Torino
+    start: 2019-10-01
+    end: 2022-07-29
+    summary: |
+      Focus on advanced software solution with a specific focus on Computer Networks and Cloud Computing.
+    button:
+      text: Rate Limiter in AF_XDP and eBPF
+      url: https://github.com/fracappa/af_xdp-tests/tree/master/examples/rate_limiter
+      icon: brands/github
+  - degree: B.S. Computer Engineering
+    institution: Universita della Calabrria
+    start: 2014-10-01
+    end: 2018-07-28
     summary: |
       Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
-
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: Software Engineer
+    org: Red Hat
+    start: 2026-01-05
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
+      Design and implementation of new features for Openshift.
+      Implement CI/CD pipeline for testing new use cases.
+      Experiment new side projects to cover team's and customer's needs.
+  - role: Software Engineer
+    org: Rakuten Mobile
+    start: 2025-01-31
+    end: 2025-12-23
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
+      Designed and implemented an eBPF-based solution for traffic mirroring in Kubernetes cluster.
+      Assisted the design of a new cluster for an experimental lab.
+      Identified new methodologies and solutions for emerging use cases.\
+  - role: Research Fellow
+    org: Politecnico di Torino
+    start: 2023-06-16
+    end: 2025-01-26
     summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
-
+      Designed and prototyped a protocol for advertising and negotiating computational resources among independent Kubernetes clusters.
+      Configured automated systems for scaling out Kubernetes baremetal nodes automatically inside campus clusters.
+      Delivered classes on Cloud Programming technique (e.g. Kubernetes Operators)
+  - role: Cloud Engineer
+    org: ITAUROS
+    start: 2022-09-05
+    end: 2023-06-15
+    summary: |
+      Designed and mantained Database Replica Set for customers.
+      Develoiped and tested cloud-native apps following the serveless paradigm.
 skills:
   - name: Development
     items:
-      - label: TypeScript
+      - label: Go
         level: 5
-      - label: React
+      - label: C
         level: 5
-      - label: Node.js
-        level: 5
-      - label: Python
-        level: 4
+      - label: Rust
+        level: 2
+      - label: Zig
+        level: 2
   - name: DevOps
     items:
       - label: Docker
@@ -93,8 +104,11 @@ skills:
         level: 5
 
 languages:
-  - name: English
-    level: 5
-    label: Native
+ - name: Italian
+   level: 5
+   label: Native
+ - name: English
+   level: 4
+   label: Professional
 
 awards: []
