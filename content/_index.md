@@ -22,7 +22,7 @@ sections:
         enable: true
         prefix: "I focus on"
         strings:
-          - "hHgh-Performance Software"
+          - "High-Performance Software"
           - "Cloud Native Apps"
           - "Scalable and Resilient Infrastructures"
           - "Open Source Tools"
@@ -96,7 +96,7 @@ sections:
               icon: devicon/c
             - name: Rust
               icon: devicon/rust
-            - name: zig
+            - name: Zig
               icon: devicon/zig
         - name: Systems
           items:
@@ -251,3 +251,4 @@ sections:
   #     spacing:
   #       padding: ["4rem", "0", "6rem", "0"]
 ---
+
