@@ -1,5 +1,5 @@
 ---
-title: "eghostbuster v0.2.0: Stale Lock File Cleanup with eBPF"
+title: "Towards reducing manual intervention onto cluster with eghostbuster: Stale Lock File Cleanup with eBPF"
 date: 2026-03-28
 summary: "eghostbuster now detects and removes orphaned lock files left behind by crashed processes, using eBPF tracepoints to track file creation and process exit events"
 tags:
@@ -24,7 +24,7 @@ This affects package managers, databases, build systems, and any application tha
 
 The new feature hooks into two kernel tracepoints via eBPF:
 
-1. **`sys_enter_openat`** -- intercepts file creation calls and checks if the filename ends in `.lock` or `.lck`. When a match is found, eghostbuster records the mapping between the creating process's PID and the filename in a BPF hash map.
+1. **`sys_enter_openat/sys_enter_openat2`** -- intercepts file creation calls and checks if the filename ends in `.lock` or `.lck`. When a match is found, eghostbuster records the mapping between the creating process's PID and the filename in a BPF hash map.
 
 2. **`sched_process_exit`** -- fires when any process exits. eghostbuster looks up the PID in the map and, if it was tracking a lock file for that process, emits an event to a ring buffer.
 
@@ -69,4 +69,3 @@ This is a first implementation. Some areas for future improvement:
 ## Resources
 
 - [GitHub Repository](https://github.com/fracappa/eghostbuster)
-- [PR #19: First implementation of lock files cleanup](https://github.com/fracappa/eghostbuster/pull/19)
