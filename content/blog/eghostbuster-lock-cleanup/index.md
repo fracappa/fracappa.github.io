@@ -1,5 +1,5 @@
 ---
-title: "Leveraging eghostbuster to minimize manual intervention on the cluster.: Stale Lock File Cleanup with eBPF"
+title: "Leveraging eghostbuster to minimize manual intervention on the cluster: Stale Lock File Cleanup with eBPF"
 date: 2026-03-28
 summary: "eghostbuster now detects and removes orphaned lock files left behind by crashed processes, using eBPF tracepoints to track file creation and process exit events"
 tags:
